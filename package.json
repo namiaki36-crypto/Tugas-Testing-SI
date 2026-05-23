@@ -1,0 +1,27 @@
+{
+  "name": "perpustakaan-digital",
+  "version": "1.0.0",
+  "description": "Mini Perpustakaan Digital - Tugas Testing dan Implementasi SI (SIFS124603)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "test:unit": "jest tests/unit --verbose",
+    "test:feature": "jest tests/feature --verbose",
+    "test:coverage": "jest --coverage --verbose"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "keywords": ["nodejs", "express", "jest", "testing", "perpustakaan"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+}
